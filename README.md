@@ -7,7 +7,7 @@
 * Import database: movie.sql
 * Open Project using Eclipse
 
-*NOTE:If somethings went wrong check the Connection String
+* NOTE:If somethings went wrong check the Connection String
 DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","SYSTEM","admin");
 Update this base on your localhost settings
 
