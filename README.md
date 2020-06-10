@@ -8,7 +8,8 @@
  * CREATE TABLE  "MOVIE1" (	"MID" NUMBER NOT NULL ENABLE, 	"MNAME" VARCHAR2(4000), 	"GENRES" VARCHAR2(4000), "RELEASE" NUMBER,   "COLLECTION" NUMBER, 	"DIRECTOR" VARCHAR2(4000) )
 
 
-* NOTE:If somethings went wrong check the Connection String
+## NOTE:
+If somethings went wrong check the Connection String
 DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","SYSTEM","admin");
 Update this base on your localhost settings
 
